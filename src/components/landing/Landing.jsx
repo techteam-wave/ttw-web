@@ -1,5 +1,7 @@
 import "./landing.scss";
 import { motion } from "framer-motion";
+import logo from '../../../public/logo.png';
+
 
 const textVariants = {
   initial: {
@@ -77,7 +79,7 @@ const Landing = () => {
         Tech Consulting
       </motion.div>
       <div className="imageContainer">
-        <img src="/logo.png" alt="" />
+        <img src={logo} alt="" />
       </div>
     </div>
   );
