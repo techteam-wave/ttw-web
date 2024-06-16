@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { ReactTyped } from "react-typed";
 
 const variants = {
   initial: {
@@ -55,7 +56,17 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+        <motion.h1 variants={variants}>Let’s work together
+        <ReactTyped
+              strings={["..."]}
+              typeSpeed={90}
+              loop
+              backSpeed={20}
+              cursorChar=">"
+              showCursor={true}
+            />
+
+        </motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>TechTeamWave@gmail.com</span>

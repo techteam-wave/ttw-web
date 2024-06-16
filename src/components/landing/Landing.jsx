@@ -1,7 +1,8 @@
 import "./landing.scss";
 import { motion } from "framer-motion";
 import logo from '../../../public/logo.png';
-
+import { ReactTyped } from "react-typed";
+import scroll from '../../../public/scroll.png';
 
 const textVariants = {
   initial: {
@@ -39,6 +40,9 @@ const sliderVariants = {
   },
 };
 
+const words = ["Tech Solutions", "Consulting", "Software Development", "Cybersecurity", "Cloud Solutions", "IT Infrastructure Setup"];
+
+
 const Landing = () => {
   return (
     <div className="hero">
@@ -51,10 +55,19 @@ const Landing = () => {
         >
           <motion.h2 variants={textVariants}>Welcome</motion.h2>
           <motion.h1 variants={textVariants}>
-            Your Partner in Tech Solutions
+            Your Partner in &nbsp; <br />
+            <ReactTyped
+              strings={words}
+              typeSpeed={90}
+              loop
+              backSpeed={20}
+              cursorChar=">"
+              showCursor={true}
+            />
+
           </motion.h1>
           <p>
-            At TechTeamWave, we offer comprehensive technology services tailored to your business needs. From IT infrastructure setup, cloud solutions, to software development and cybersecurity, our team of experts are committed to driving your business forward with innovative and reliable tech solutions.
+            TechTeamWave provides tailored IT services, including infrastructure setup, cloud solutions, software development, and cybersecurity, to drive your business forward.
           </p>
           <motion.div variants={textVariants} className="buttons">
             {/* <motion.button variants={textVariants}>
@@ -65,7 +78,7 @@ const Landing = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/scroll.png"
+            src={scroll}
             alt=""
           />
         </motion.div>
@@ -79,8 +92,8 @@ const Landing = () => {
         Tech Consulting
       </motion.div>
       <div className="imageContainer">
-        <img src={logo} alt="" />
-      </div>
+  <img className="animatedImage" src={logo} alt="" />
+</div>
     </div>
   );
 };
