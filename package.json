@@ -1,16 +1,17 @@
 {
   "name": "techteam-wave",
   "private": true,
-  "homepage": "https://techteam-wave.github.io/ttw-web",
+  "homepage": "https://techteam-wave.github.io/ttw-web/",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
