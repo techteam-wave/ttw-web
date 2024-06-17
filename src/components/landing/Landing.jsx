@@ -54,14 +54,16 @@ const Landing = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>Welcome</motion.h2>
-          <motion.h1 variants={textVariants}>
+          <motion.h1 variants={textVariants}
+            style={{ overflow: 'hidden !important' }}
+          >
             Your Partner in &nbsp; <br />
             <ReactTyped
               strings={words}
               typeSpeed={90}
               loop
               backSpeed={20}
-              cursorChar=">"
+              cursorChar="_"
               showCursor={true}
             />
 
@@ -92,8 +94,8 @@ const Landing = () => {
         Tech Consulting
       </motion.div>
       <div className="imageContainer">
-  <img className="animatedImage" src={logo} alt="" />
-</div>
+        <img className="animatedImage" src={logo} alt="" />
+      </div>
     </div>
   );
 };

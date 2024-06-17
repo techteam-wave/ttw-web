@@ -35,11 +35,12 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          We specialize in providing innovative tech solutions
-          <br /> to propel your business forward
+          <b>Providing innovative tech solutions to propel your business forward</b>
         </p>
         <hr />
+        <br/>
       </motion.div>
+      <br/>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src={people} alt="" />
@@ -47,6 +48,7 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas ?
           </h1>
         </div>
+        <br/>
         <div className="title">
           <h1>
             <motion.b whileHover={{ color: "orange" }}>We help You</motion.b> Grow.
@@ -54,6 +56,8 @@ const Services = () => {
           <button>Contact Us</button>
         </div>
       </motion.div>
+      <br/>
+      <br/>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
@@ -89,11 +93,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Talent Management</h2>
+          <h2>Talent</h2>
           <br/>
 
           <p>
-            We offer comprehensive talent management solutions. Our services include talent acquisition, development, and retention strategies. We aim to help your organization build a high-performing workforce that drives business growth and success.
+          We offer comprehensive talent management solutions, acquisition, development, and retention strategies to build a workforce that drives business growth and success.
           </p>
           <br/>
           <br/>

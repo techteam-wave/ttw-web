@@ -6,26 +6,26 @@ const items = [
   {
     id: 1,
     title: "Car Rental App",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Description: Car Rental App.",
+    img: "https://th.bing.com/th/id/OIP.xXU47TFOTQAXUJT3-C0j4AHaFj?rs=1&pid=ImgDetMain",
+    desc: "Streamline your car rental experience with our innovative app, designed to provide seamless booking and management solutions for both customers and rental companies.",
   },
   {
     id: 2,
     title: "Agile Training",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Description: Agile Training",
+    img: "https://i0.wp.com/jordanjob.me/wp-content/uploads/2015/12/Scrum-Diagram-JordanJob.me_.png?fit=3000%2C2250&ssl=1",
+    desc: "Unlock your team's full potential with our expert-led agile training sessions, tailored to enhance collaboration, adaptability, and efficiency in fast-paced environments.",
   },
   {
     id: 3,
     title: "Portfolio Website",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Description: ",
+    img: "https://th.bing.com/th/id/OIP.EC17zW2qcjx1N-iAX9izfwHaFj?rs=1&pid=ImgDetMain",
+    desc: "Showcase your skills and achievements with a professional portfolio website, carefully crafted to highlight your expertise and attract potential clients. ",
   },
   {
     id: 4,
     title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Description:",
+    img: "https://cdn.dribbble.com/users/4603219/screenshots/12209810/dribbble_shot_hd_-_1_4x.png",
+    desc: "Revolutionize the music industry with our cutting-edge app, offering intuitive discovery, personalized playlists, and seamless streaming for a new generation of music lovers.",
   },
 ];
 
